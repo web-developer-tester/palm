@@ -39,7 +39,7 @@
                     <button>LEARN MORE</button>
                 </div>
             </div>
-            <video src="MY121-2.mp4" autoplay loop muted ></video>
+            <video id="myVideo" src="MY121-2.mp4" autoplay loop muted ></video>
         </div>
         <div id="page2">
             <h2>CHECK US OUT! </h2>
@@ -173,6 +173,13 @@
             </div>
         </div>
     </div>
+    <script>
+var x = document.getElementById("myVideo");
+
+function setPlaySpeed() { 
+  x.playbackRate = 0.1;
+} 
+</script> 
  <script src="https://d1ttqxosekmk9r.cloudfront.net/argus/bootstrap.min.js"></script>
  <link rel='stylesheet' href="https://images.odishatv.in/assets/css/owl.carousel.min.css">
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
