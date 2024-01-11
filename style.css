@@ -51,7 +51,7 @@ img.logo-img {
 }
 #page1>header>img{
     margin-top:1.7vw;
-    width: 9%;
+    width: 7%;
 }
 #right-nav>button{
     padding: 10px 20px;
@@ -136,6 +136,30 @@ img.logo-img {
     color: #dadada69;
 }
 
+#inner-page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+    background-color: #0a3cce;
+}
+#inner-page2>h2{
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+#inner-page2>h1 {
+    font-weight: 100;
+    line-height: 1.2;
+    width: 100%;
+    font-size: 3vw;
+    color: #fff;
+}
 
 #page3{
     position: relative;
@@ -359,7 +383,6 @@ img.logo-img {
     font-weight: 100;
     margin-bottom: 30px;
 }
-
 #page12{
     position: relative;
     height: 80vh;
@@ -368,13 +391,14 @@ img.logo-img {
 }
 .page12-inner{
     position: absolute;
-    top: 20%;
-    right: 10%;
+    top: 5%;
+    right: 2px;
     color: #fff;
     font-family: a;
+    left: 54%;
 }
 .page12-inner>h1{
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 100;
 }
 .page12-inner>p{
